@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https//blog.52heke.com/"/>
-  <updated>2018-09-21T14:40:50.073Z</updated>
+  <updated>2018-09-21T15:19:13.388Z</updated>
   <id>https//blog.52heke.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Nginx的日志及日志切割</title>
+    <link href="https//blog.52heke.com/2018/09/21/Nginx%E7%9A%84%E6%97%A5%E5%BF%97%E5%8F%8A%E6%97%A5%E5%BF%97%E5%88%87%E5%89%B2/"/>
+    <id>https//blog.52heke.com/2018/09/21/Nginx的日志及日志切割/</id>
+    <published>2018-09-21T14:49:17.000Z</published>
+    <updated>2018-09-21T15:19:13.388Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Nginx是我们的各个系统的入口，承担着静态服务器、反向代理服务器、负载均衡服务器的任务。Nginx的日志可以让我们知道访问的来源、使用的终端、客户端ip等信息，也能够发现某个服务或系统的性能瓶颈。Nginx的日志需要按照一定的格式记录，方便我们查询信息、分析问题。所以，我们需要稍微了解下Nginx的日志格式以及日志切割。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="nginx" scheme="https//blog.52heke.com/categories/nginx/"/>
+    
+    
+      <category term="nginx" scheme="https//blog.52heke.com/tags/nginx/"/>
+    
+      <category term="日志" scheme="https//blog.52heke.com/tags/%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>Mysql的事务及事务隔离级别</title>
