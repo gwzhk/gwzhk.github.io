@@ -78,8 +78,8 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-scheme: Mist
-#scheme: Pisces
+#scheme: Mist
+scheme: Pisces
 #scheme: Gemini
 
 
@@ -376,6 +376,17 @@ changyan:
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
 # application_insights:
+
+# valine
+valine: 
+  enable: true
+  appid: z4TolduRecFr0ABph4G9cYJE-gzGzoHsz
+  appkey: 2BdbqcHheEb3nrY59wwNd9eh
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: ヾﾉ≧∀≦)o来啊，快活啊! 
+  guest_info: nick,mail,link
+  pageSize: 10
 
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
