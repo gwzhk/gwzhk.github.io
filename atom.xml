@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>长颈鹿先生的技术博客</title>
+  
+  <subtitle>既然选择了远方，就不顾风雨兼程，等你！</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https//blog.52heke.com/"/>
+  <updated>2018-09-21T14:33:17.340Z</updated>
+  <id>https//blog.52heke.com/</id>
+  
+  <author>
+    <name>gwzhk</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mysql的事务</title>
+    <link href="https//blog.52heke.com/2018/09/21/Mysql%E7%9A%84%E4%BA%8B%E5%8A%A1%E5%8F%8A%E4%BA%8B%E5%8A%A1%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB/"/>
+    <id>https//blog.52heke.com/2018/09/21/Mysql的事务及事务隔离级别/</id>
+    <published>2018-09-21T07:33:01.000Z</published>
+    <updated>2018-09-21T14:33:17.340Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;数据库具有ACID属性，即原子性、一致性、隔离性和持久性。Mysql的事务隔离级别一共有四种，分别是读未提交、读已提交、可重复读和可序列化。下面会具体演示脏读、不可重复读和幻读，要解决以上的问题需要设定相应的事务隔离级别。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Mysql" scheme="https//blog.52heke.com/categories/Mysql/"/>
+    
+    
+      <category term="Mysql" scheme="https//blog.52heke.com/tags/Mysql/"/>
+    
+      <category term="事务" scheme="https//blog.52heke.com/tags/%E4%BA%8B%E5%8A%A1/"/>
+    
+      <category term="隔离级别" scheme="https//blog.52heke.com/tags/%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https//blog.52heke.com/2018/09/20/hello-world/"/>
+    <id>https//blog.52heke.com/2018/09/20/hello-world/</id>
+    <published>2018-09-20T12:13:13.060Z</published>
+    <updated>2018-09-20T12:13:13.060Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
