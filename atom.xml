@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https//blog.52heke.com/"/>
-  <updated>2018-09-21T14:33:17.340Z</updated>
+  <updated>2018-09-21T14:40:50.073Z</updated>
   <id>https//blog.52heke.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Mysql的事务</title>
+    <title>Mysql的事务及事务隔离级别</title>
     <link href="https//blog.52heke.com/2018/09/21/Mysql%E7%9A%84%E4%BA%8B%E5%8A%A1%E5%8F%8A%E4%BA%8B%E5%8A%A1%E9%9A%94%E7%A6%BB%E7%BA%A7%E5%88%AB/"/>
     <id>https//blog.52heke.com/2018/09/21/Mysql的事务及事务隔离级别/</id>
     <published>2018-09-21T07:33:01.000Z</published>
-    <updated>2018-09-21T14:33:17.340Z</updated>
+    <updated>2018-09-21T14:40:50.073Z</updated>
     
     <summary type="html">
     
