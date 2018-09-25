@@ -1,5 +1,5 @@
 ---
-title: Mysql的事务
+title: Mysql的事务及事务隔离级别
 date: 2018-09-21 15:33:01
 categories:
 - Mysql
@@ -25,16 +25,16 @@ tags:
 //只有InnoDB支持事务
 SHOW ENGINES;
 ```
-![mysql存储引擎](https://img-blog.csdn.net/20180918112128312?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2d3el9oaw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![mysql存储引擎](Mysql的事务及事务隔离级别/mysql存储引擎.png)
 
 #### 查看mysql当前的存储引擎
 
 ```
 SHOW VARIABLES LIKE '%storage_engine%';
 ```
-![默认的存储引擎](https://img-blog.csdn.net/20180918112221199?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2d3el9oaw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![默认的存储引擎](Mysql的事务及事务隔离级别/默认的存储引擎.png)
 
-####查看某张表的存储引擎
+#### 查看某张表的存储引擎
 
 ```
 SHOW CREATE TABLE 表名;
@@ -245,7 +245,7 @@ SELECT * FROM account;//发现有5条记录
 
 
 ####  事务隔离级别总结
-![事务隔离级别](https://img-blog.csdn.net/20180918112513130?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2d3el9oaw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![事务隔离级别](Mysql的事务及事务隔离级别/事务隔离级别.png)
 
 > 事务隔离级别为可重复读时，如果有索引（包括主键索引）的时候，以索引列为条件更新数据，会存在[间隙锁](https://blog.csdn.net/lz710117239/article/details/78776446)、行锁、页锁的问题，从而锁住一些行；如果没有索引的时候，更新数据时会锁住整张表。<br>
 事务隔离级别为串行化时，读写数据都会锁住整张表。<br>
