@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https//blog.52heke.com/"/>
-  <updated>2018-09-21T15:19:13.388Z</updated>
+  <updated>2019-01-02T08:37:04.685Z</updated>
   <id>https//blog.52heke.com/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mysql优化策略总结</title>
+    <link href="https//blog.52heke.com/2019/01/02/mysql%E4%BC%98%E5%8C%96%E7%AD%96%E7%95%A5%E6%80%BB%E7%BB%93/"/>
+    <id>https//blog.52heke.com/2019/01/02/mysql优化策略总结/</id>
+    <published>2019-01-02T07:48:58.000Z</published>
+    <updated>2019-01-02T08:37:04.685Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;mysql的执行计划可以清楚地知道sql的执行顺序、type、可能用到的索引、扫描的行数、等等。针对于执行计划所查询出的问题，我们该如何优化呢？以及平时我们在写sql时需要注意什么？针对索引失效的情况我们该如何解决呢？&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Mysql" scheme="https//blog.52heke.com/categories/Mysql/"/>
+    
+    
+      <category term="Mysql" scheme="https//blog.52heke.com/tags/Mysql/"/>
+    
+      <category term="优化" scheme="https//blog.52heke.com/tags/%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网络编程基础知识总结</title>
+    <link href="https//blog.52heke.com/2018/09/30/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E6%80%BB%E7%BB%93/"/>
+    <id>https//blog.52heke.com/2018/09/30/网络编程基础知识总结/</id>
+    <published>2018-09-30T06:56:43.000Z</published>
+    <updated>2018-10-05T00:10:33.170Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;本文主要介绍网络编程的一些基础知识点，包括OSI七层模型、TCP/IP四层模型、网络协议族、TCP与UDP、TCP连接的三次握手和四次挥手、TCP/IP中的数据包以及数据包的传输过程、HTTP协议的报文结构及传输过程等。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="网络编程" scheme="https//blog.52heke.com/categories/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="网络编程" scheme="https//blog.52heke.com/tags/%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="NIO" scheme="https//blog.52heke.com/tags/NIO/"/>
+    
+      <category term="Netty" scheme="https//blog.52heke.com/tags/Netty/"/>
+    
+  </entry>
   
   <entry>
     <title>Nginx的日志及日志切割</title>
